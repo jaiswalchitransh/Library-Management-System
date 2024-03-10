@@ -16,5 +16,59 @@ namespace Library_Management_System
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void txtUsername(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void txtPassword(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUsername_MouseEnter(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        private void txtPassword_MouseEnter(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void txtLoginID_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (txtLoginID.Text == "Login ID")
+            {
+                txtLoginID.Clear();
+            }
+
+        }
+
+        private void txtPass_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (txtPass.Text == "Password")
+            {
+                txtPass.Clear();
+                txtPass.PasswordChar = '*';
+            }
+        }
     }
 }
