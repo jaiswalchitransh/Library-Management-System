@@ -39,7 +39,7 @@ namespace Library_Management_System
 
         private void txtPassword(object sender, EventArgs e)
         {
-
+            txtPass.PasswordChar = '*';
         }
 
         private void txtUsername_MouseEnter(object sender, EventArgs e)
@@ -47,12 +47,6 @@ namespace Library_Management_System
             
 
         }
-
-        private void txtPassword_MouseEnter(object sender, EventArgs e)
-        {
-            
-        }
-
         private void txtLoginID_MouseClick(object sender, MouseEventArgs e)
         {
             if (txtLoginID.Text == "Login ID")
@@ -67,7 +61,7 @@ namespace Library_Management_System
             if (txtPass.Text == "Password")
             {
                 txtPass.Clear();
-                txtPass.PasswordChar = '*';
+                
             }
         }
     }
